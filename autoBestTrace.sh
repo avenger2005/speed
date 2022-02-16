@@ -4,9 +4,8 @@
 
 # install besttrace
 if [ ! -f "besttrace" ]; then
-	wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+	wget https://github.com/avenger2005/speed/blob/main/besttrace
 	unzip besttrace4linux.zip -d besttrace
-	cd besttrace
 	chmod +x besttrace
 fi
 
