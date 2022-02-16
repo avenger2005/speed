@@ -3,11 +3,11 @@
 # apt -y install unzip
 
 # install besttrace
-if [ ! -f "besttrace2021" ]; then
-    wget https://cdn.ipip.net/17mon/besttrace4linux.zip
-    unzip besttrace4linux.zip -d besttrace
-    cd besttrace
-    chmod +x besttrace
+if [ ! -f "besttrace" ]; then
+	wget https://cdn.ipip.net/17mon/besttrace4linux.zip
+	unzip besttrace4linux.zip -d besttrace
+	cd besttrace
+	chmod +x besttrace
 fi
 
 ## start to use besttrace
