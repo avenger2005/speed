@@ -4,7 +4,7 @@
 
 # install besttrace
 if [ ! -f "besttrace" ]; then
-	wget https://github.com/avenger2005/speed/blob/main/besttrace
+	wget https://github.com/avenger2005/speed/raw/main/besttrace
 	unzip besttrace4linux.zip -d besttrace
 	chmod +x besttrace
 fi
